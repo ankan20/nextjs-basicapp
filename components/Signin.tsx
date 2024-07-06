@@ -7,11 +7,11 @@ export const SigninComponent = ()=>{
                 <div className="text-3xl font-extrabold flex justify-center">SignIn</div>
                 <label htmlFor="username" className=" font-bold">Username</label>
                 <input type="text" id="username" className="w-full bg-white  border border-black rounded-md" placeholder="Username"/>
+                <label htmlFor="fullname" className=" font-bold">Full Name</label>
+                <input type="text" id="fullname" className="w-full bg-white  border border-black rounded-md" placeholder="fullname"/>
                 <label htmlFor="password" className=" font-bold">Password</label>
                 <input type="text" id="password" className="w-full bg-white border border-black rounded-md " placeholder="Password"/>
-                <button className=" py-1  bg-black text-slate-100 rounded-md" onClick={function (){
-                    console.log("hi from signin submit button")
-                }}>Submit</button>
+                <button className=" py-1  bg-black text-slate-100 rounded-md" >Submit</button>
             </div>
         </div>
     )
